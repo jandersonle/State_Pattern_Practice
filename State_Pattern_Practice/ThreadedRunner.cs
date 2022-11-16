@@ -70,7 +70,6 @@ namespace State_Pattern_Practice
             {
                 Console.WriteLine(rec.Log);
             }
-
         }
 
 

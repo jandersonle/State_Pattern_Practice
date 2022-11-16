@@ -17,9 +17,11 @@ namespace State_Pattern_Practice.Record_Api_Client
     {
         private HttpClient? _client = new HttpClient();
 
-        private string baseURL = "https://localhost:7193/api/RecordItemsController/";
+        // private string baseURL = "https://localhost:7193/api/RecordItemsController/";
+        private string baseURL = "https://recordapi20221116143141.azurewebsites.net/api/RecordItemsController/";
 
-        private List<Record> _records = new List<Record>();
+
+        private List<Record> _records = new();
 
         /// <summary>
         /// Sets the default parameter for the Http web client. Must be ran before any other methods.
